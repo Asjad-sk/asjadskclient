@@ -1,0 +1,19 @@
+.Home-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    z-index: 99;
+  }
+.headerfile{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -99;
+    
+}
+/* img{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    left:50px
+} */

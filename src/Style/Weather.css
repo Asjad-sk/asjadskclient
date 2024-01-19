@@ -1,0 +1,45 @@
+.head1{
+    width: 100vw;
+    height: 15%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #87CEEB, #4169E1);
+
+   
+}
+.input-box{
+    width: 40%;
+    height: 40%;
+    padding-left: 20px;
+    border-radius: 40px;
+    border: 0.5px solid gray;
+
+}
+.search-icon{
+    position: relative;
+    right: 25px;
+    cursor: pointer;
+    color: gray;
+}
+.weather-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.weather-cart{
+    margin: 35px;
+    border-radius: 30px  ;
+}
+.weather-city{
+    text-transform: uppercase;
+}
+.weather-carthead{
+    margin: 20px;
+}
+.weather-cartpara{
+    margin: 20px;
+}
