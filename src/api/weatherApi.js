@@ -4,7 +4,7 @@ import axios from "axios";
 
 export const getCitydata = createAsyncThunk("weather/getCitydata", async (obj) => {
   try {
-    const response = await axios.get(`http://api.openweathermap.org/data/2.5/find?q=${obj.searchvalue}&appid=3261f2f5e3886b6018b6320026f185df`);
+    const response = await axios.get(`https://api.openweathermap.org/data/2.5/find?q=${obj.searchvalue}&appid=3261f2f5e3886b6018b6320026f185df`);
     
     return {
       data: response.data,
