@@ -37,7 +37,7 @@ const weatherSlice = createSlice({
       .addCase(getCitydata.rejected, (state, action) => {
         state.citySearchLoading = false;
         state.citySearchData = null;
-        console.error("Error fetching city data:", action.error.message);
+      
       });
   },
 });

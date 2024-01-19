@@ -1,3 +1,4 @@
+import React from "react";
 import Sidebar from "./Sidebar";
 import "../Style/Weather.css";
 import { useEffect, useState } from "react";

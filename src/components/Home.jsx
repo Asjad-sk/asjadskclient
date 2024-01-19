@@ -9,7 +9,9 @@ const Home = () => {
   };
 
   return (
-    <div className="Home-container">
+    <div className="Home-container" style={{
+      background:"linear-gradient(to right, #87CEEB, #4169E1)"
+    }}>
       <Sidebar showSidebar={showSidebar} toggleSidebar={toggleSidebar} />
 
       <div
